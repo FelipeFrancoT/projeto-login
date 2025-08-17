@@ -14,3 +14,28 @@ body{
     width: 100vw;
 }
 
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+    overflow: hidden;
+
+
+    background-color: white;
+    width:250px ;
+    height:500px ;
+    border-radius: 20px;
+}
+section#login > div#imagem{
+    display: block;
+    background: url(../imagens/pexels-josh-hild-1270765-3229806.jpg) no-repeat center center;
+    background-size: cover; /* Mantém a imagem inteira dentro */
+    height: 200px; /* ajusta a altura que tu quiser */
+    border-radius: 20px 20px 0 0; /* arredonda só em cima */
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
